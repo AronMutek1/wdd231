@@ -2,80 +2,89 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Timbuktu Chamber of Commerce</title>
-  <link rel="stylesheet" href="Styles/Styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page">
+    <meta name="author" content="Aron Mutekulwa">
+    <link rel="icon" href="images/favorite-favicon.ico">
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Home | Aron Mutek">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/Kampala-card.jpg">
+    <meta property="og:url" content="https://aronmutek1.github.io/wdd231/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Home | Demetrio Aris</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style-small.css">
+    <link rel="stylesheet" href="styles/style-large.css">
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+
 </head>
 
 <body>
-  <header>
-    <div class="logo">
-      <img src="placeholder-logo.png" alt="Timbuktu Logo" /> Timbuktu Chamber of Commerce
-    </div>
+    <header>
+        <div class="contenedor">
+            <img class="avatar" src="images/img-profile.jpg" alt="Aron Mutek photo">
+        </div>
+        <h1>Aron Mutekulwa</h1>
+        <button id="menu" title="Menu"></button>
+    </header>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Directory</a>
-      <a href="#">Join</a>
-      <a href="#">Discover</a>
+        <ul>
+            <li><a class="active" href="/index.html">Home</a></li>
+            <li><a href="https://github.com/AronMutek1" target="_blank">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/aron-mutekulwa-06808a195/" target="_blank">LinkedIn Profile</a></li>
+            <li><a href="chamber/index.html" target="_blank">Chamber</a></li>
+        </ul>
     </nav>
-  </header>
+    <main>
+        <section class="courseWork-box">
+            <h2>Course Work</h2>
+            <ul>
+                <li>Chamber of Commerce Site Planning</li>
+                <li>Chamber of Commerce Directory Page</li>
+                <li>Chamber Home Page</li>
+                <li>Chamber Membership Application Form / Project Subject Proposal</li>
+                <li>Chamber Discover Page / Project Site Plan
+                </li>
+                <li>Individual Website Project</li>
+                <li>Final Exam Test</li>
+            </ul>
+        </section>
+        <section class="country-box">
+            <h2>Kampala</h2>
+            <picture>
+                <source media="(min-width: 768px)" srcset="images/cityscape-bucharest.jpg">
+                <source media="(min-width: 1024px)" srcset="images/cityscape-bucharest.png">
 
-  <div class="hero">
-    <p>Scalable, responsive hero image</p>
-    <button>Keynote Tickets</button>
-  </div>
+                <img src="images/cityscape-bucharest.jpg" alt="Uganda City" width="300" height="225">
+            </picture>
+            <p>Kampala City</p>
+        </section>
+        <section class="certificate-box">
+            <h2>Web and Computer Programming certificate</h2>
+            <div class="boxButton">
+                <button class="courseButton" value="all" title="Filter button">All</button>
+                <button class="courseButton" value="cse" title="Filter button">CSE</button>
+                <button class="courseButton" value="wdd" title="Filter button">WDD</button>
+            </div>
+            <div class="boxcertificate01 boxCourse"></div>
+            <dialog id="courses-details"></dialog>
+            <p id="totalCreditsCert01">Total Credits for Certificate 4: 0</p>
+        </section>
 
-  <main>
-    <h1>Home</h1>
-    <div class="grid">
-      <section class="events">
-        <h2>Events</h2>
-        <p>Upcoming events will be listed here.</p>
-      </section>
-      <section class="weather">
-        <h2>Current Weather</h2>
-        <p><strong>75°F</strong> – Partly Cloudy<br>High: 85°<br>Low: 52°<br>Humidity: 34%<br>Sunrise: 7:30am<br>Sunset: 9:59pm</p>
-      </section>
-      <section class="forecast">
-        <h2>Weather Forecast</h2>
-        <p>Today: <strong>90°F</strong><br>Wednesday: <strong>89°F</strong><br>Thursday: <strong>68°F</strong></p>
-      </section>
-    </div>
-
-    <div class="business-list">
-      <div class="business-card">
-        <img src="placeholder-image.png" alt="Business Logo">
-        <h3>Business Name</h3>
-        <p>Business Tag Line</p>
-        <p><strong>Email:</strong> info@gmail.com<br><strong>Phone:</strong> 800-555-1234<br><strong>URL:</strong> mybusiness.com</p>
-      </div>
-      <div class="business-card">
-        <img src="placeholder-image.png" alt="Business Logo">
-        <h3>Business Name</h3>
-        <p>Business Tag Line</p>
-        <p><strong>Email:</strong> info@gmail.com<br><strong>Phone:</strong> 800-555-1234<br><strong>URL:</strong> mybusiness.com</p>
-      </div>
-      <div class="business-card">
-        <img src="placeholder-image.png" alt="Business Logo">
-        <h3>Business Name</h3>
-        <p>Business Tag Line</p>
-        <p><strong>Email:</strong> info@gmail.com<br><strong>Phone:</strong> 800-555-1234<br><strong>URL:</strong> mybusiness.com</p>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p><strong>Timbuktu Chamber of Commerce</strong><br>
-      10 Rue De La Paix, Timbuktu, Mali 999<br>
-      info@timbuktucc.org | (223) 555-2300</p>
-    <div class="social-icons">
-      <img src="placeholder-youtube.png" alt="YouTube">
-      <img src="placeholder-twitter.png" alt="Twitter">
-      <img src="placeholder-linkedin.png" alt="LinkedIn">
-    </div>
-    <p>WDD231 Class Project<br>Marie Martínez<br>© 20xx Timbuktu Chamber of Commerce<br>Last Modification: 10/21/202X 22:12:35</p>
-  </footer>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear">Lorem</span> Aron Mutek |
+           Kampala</p>
+        <p id="lastModified">Lorem ipsum</p>
+        
+    </footer>
 </body>
 
 </html>
