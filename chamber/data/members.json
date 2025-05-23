@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Timbuktu Boutique",
+    "address": "123 Desert Road",
+    "phone": "123-456-7890",
+    "website": "https://timbuktuboutique.com",
+    "image": "boutique.jpg",
+    "membership": 3
+  },
+  {
+    "name": "Sahara Cafe",
+    "address": "45 Oasis Avenue",
+    "phone": "987-654-3210",
+    "website": "https://saharacafe.com",
+    "image": "cafe.jpg",
+    "membership": 2
+  },
+  {
+    "name": "Nomad Tech Solutions",
+    "address": "789 Market Street",
+    "phone": "555-678-1234",
+    "website": "https://nomadtech.tmbk",
+    "image": "tech.jpg",
+    "membership": 1
+  }
+]
