@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page">
+    <meta name="author" content="Aron Mutekulwa">
+
+    <link rel="icon" href="images/ave-letter-logo-design-in-illustration-logo-calligraphy-designs-for-logo-poster-invitation-etc-vector.jpg" sizes="32x32" type="image/ico">
+
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Home | Kampala Experience">
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="Discover the magic of Kampala through breathtaking landscapes, rich culture, and unforgettable adventures.">
+    <meta property="og:image" content="images/favicon/favicon.png">
+    <meta property="og:url" content="https://aronmutek1.github.io/wdd231/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Visit us | Kampala Experience</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/favicon/favicon-32x32.jpg" alt="Logo Chamber Panama" />
+                <h1 class="nameHeader"><strong>Kampala</strong> <br>Experience</h1>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="thank-you">
+            <div class="thank-you-content">
+                <h1>Thank You!</h1>
+                <p>We appreciate your interest and your trust in us.</p>
+                <p>Your booking has been confirmed, and we're excited to be a part of your journey!</p>
+                <a href="index.html" class="button">Back to Home</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear">2025</span> -Aron Mutekulwa - Kampala</p>
+        <p><a href="https://yourvideolink.com" target="_blank">Project Video</a></p>
+        <p id="lastModified">The Pearl Of Africa</p>
+    </footer>
+    <script>
+        // footer
+        document.getElementById("currentyear").textContent =
+            new Date().getFullYear();
+        document.getElementById(
+            "lastModified"
+        ).textContent = `Last Modified: ${document.lastModified}`;
+    </script>
+</body>
+
+</html>
